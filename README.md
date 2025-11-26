@@ -15,7 +15,8 @@ hello-arc/
 │   ├── GameToken.sol     # ERC20 for game tokenomics
 │   ├── PropertyNFT.sol   # ERC721 for unique properties
 │   ├── InvestorItems.sol # ERC1155 for game items
-│   └── GameCore.sol      # Main game logic and security
+│   ├── GameCore.sol      # Main game logic and security
+│   └── DeFiVault.sol     # Secure DeFi vault contract
 ├── test/                 # Foundry tests for all contracts
 ├── scripts/              # Deployment and interaction scripts
 ├── frontend/             # (Optional) Web3 frontend app
@@ -43,6 +44,7 @@ hello-arc/
 - `PropertyNFT.sol`: ERC721 for unique HMO properties
 - `InvestorItems.sol`: ERC1155 for game items
 - `GameCore.sol`: Main game logic, integrates all components
+- `DeFiVault.sol`: Secure DeFi vault contract for deposits and withdrawals, demonstrating best practices (access control, reentrancy protection, event logging)
 
 ## License
 
